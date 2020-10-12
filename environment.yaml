@@ -1,0 +1,8 @@
+# conda environment description for MEOPAR-ATM 2020-10-19
+# "Python: f-strings and Q&A" session
+
+name: atm-f-strings
+
+dependencies:
+  - jupyterlab
+  - python>=3.6
