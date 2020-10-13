@@ -1,8 +1,14 @@
 # conda environment description for MEOPAR-ATM 2020-10-19
 # "Python: f-strings and Q&A" session
+#
+# Create a conda environment in which the notebooks in this repo can be run
+# with
+#
+#   conda env create -f environment.yaml
 
 name: atm-f-strings
 
 dependencies:
   - jupyterlab
   - python>=3.6
+  - rise
